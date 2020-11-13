@@ -36,6 +36,12 @@ scrape_configs:
 
 To find `token` of you device, please refer to [this guide](https://github.com/jghaanstra/com.xiaomi-miio/blob/master/docs/obtain_token.md).
 
+## docker
+
+```bash
+docker build -t mi-vacuum-exporter .
+```
+
 ## See also
 
 - Protocol specification: [marcelrv/XiaomiRobotVacuumProtocol](https://github.com/marcelrv/XiaomiRobotVacuumProtocol)
